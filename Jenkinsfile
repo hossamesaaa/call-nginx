@@ -1,2 +1,2 @@
-@library('lab2-sharedlib')
+@Library('lab2-sharedlib')
 nginx()

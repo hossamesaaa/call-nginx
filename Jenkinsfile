@@ -5,8 +5,10 @@ stage('echo'){
 }
 
 
-@Library('sharedlib')_
+@Library('sharedlib@main')_
+ stage('build'){
   nginx 
+}
 
  
 

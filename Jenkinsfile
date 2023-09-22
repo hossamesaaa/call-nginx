@@ -1,3 +1,6 @@
 
 @Library('sharedlib@test')_
-nginx 
+stage('build'){
+  nginx hossam
+}
+ 

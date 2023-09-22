@@ -1,6 +1,11 @@
 
 @Library('sharedlib@test')_
-parameters
+stage('param') {
+   steps {
+          parameters
+     }    
+  }
+
 
 
  
